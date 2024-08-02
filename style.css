@@ -1,0 +1,13 @@
+#box{
+    box-shadow: 
+        10px -10px 15px rgba(81, 166, 216, 0.3),  /* Top-right shadow */
+        -10px 10px 15px rgba(81, 166, 216, 0.3);
+    display :none;
+}
+
+#values{
+    display : none
+}
+#loading{
+    display:none
+}

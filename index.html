@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <title>World Time Generator</title>
+</head>
+<body>
+    <div class="bg-[url(bg3.jpg)] bg-cover bg-no-repeat text-white w-screen h-screen">
+        <div class="navbar text-center ">
+            <form class='searchForm' action="">
+                <input type="text" name="search" id="search" placeholder="search city..." class="bg-slate-600 text-xs mt-4 rounded-lg px-5 py-1 w-[30rem] h-7" >
+            </form>
+        </div>
+        <div class="flex justify-evenly mt-10">
+            <div class="text-center">
+                <p ><span class="delhi text-4xl mb-2">9:45</span></p>
+                <p class="text-center font-serif">New Delhi</p>
+            </div>
+            <div>
+                <p ><span class="tokyo text-4xl mb-2">9:45</span></p>
+                <p class="text-center font-serif">Tokyo</p>
+            </div>
+            <div>
+                <p ><span class=" york text-4xl mb-2">9:45</span></p>
+                <p class="text-center font-serif ">New York</p>
+            </div>
+            <div>
+                <p ><span class="london text-4xl mb-2">9:45</span></p>
+                <p class="text-center font-serif">London</p>
+            </div>
+        </div>
+        <div id="box" class="h-[25rem] w-[20rem]   mt-12 ml-16 rounded-2xl">
+            <div>
+                <img id= "loading" src="loading.gif">
+            </div>
+            <div id="values" >
+            <p class="text-center pt-6">
+                <span class=" boxtime text-7xl  mt-7 font-serif">9:45</span>
+            </p>
+            <p class="boxdate mt-2 flex flex-col items-center gap-1 font-serif text-xl ">
+                <span>
+                    24 July, 2024
+                </span>
+                <span class="boxday">
+                    Thursday
+                </span>
+            </p>
+            <div class="mt-10">
+                <p class="boxcity text-center text-2xl font-serif">
+                DehraDun
+                </p>
+                <p class="mt-5 ml-7" >
+                    <span class=" font-serif">Latitude:</span> <span class="boxlat">23*7'54"</span>
+                </p>
+                <p class="mt-2 ml-7">
+                    <span class=" font-serif">Longitude:</span> <span class="boxlon">32*24'11"</span>
+                </p>
+                <p class="mt-2 ml-7">
+                    <span class=" font-serif ">TimeZone:</span> <span class="boxtimez">Asia/Kolkata</span>
+                </p>
+            </div>
+        </div>
+            
+        </div>
+       
+        
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
